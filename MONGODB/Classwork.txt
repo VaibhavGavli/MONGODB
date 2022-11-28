@@ -1,0 +1,5 @@
+db.emp.insert({empno:4,ename:'Ganya',hiredate:ISODate("2000-08-23"),hobby:['Swimming','Reading']});
+db.emp.insert({empno:3,ename:'Gaurav',hiredate:ISODate("2022-06-08")});
+
+db.createCollection("blog");
+db.blog.insertMany([{roll:1,name:'Amit',branch:'Mech'},{roll:2,name:'sakshi',branch:'CS'}]);
